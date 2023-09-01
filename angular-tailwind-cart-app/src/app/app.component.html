@@ -1,0 +1,21 @@
+<!-- Navbar -->
+<nav class="bg-gradient-to-r from-blue-500 to-purple-500 p-4 text-white">
+  <div class="container mx-auto flex flex-col lg:flex-row justify-between items-center">
+    <!-- Logo/Home Link -->
+    <a routerLink="/" class="text-4xl font-extrabold mb-2 lg:mb-0 lg:text-3xl hover:text-yellow-400 transition duration-300">
+      <span class="text-blue-300">My</span> Angular <span class="text-purple-300">Cart</span> App
+    </a>
+    
+    <!-- Navigation Links -->
+    <ul class="flex space-x-4">
+      <li><a routerLink="/catalogue" class="hover:text-yellow-400 hover:underline">Catalogue</a></li>
+      <li><a routerLink="/cart" class="hover:text-yellow-400 hover:underline">Cart</a></li>
+      <li><a routerLink="/confirm-order" class="hover:text-yellow-400 hover:underline">Order</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Router Outlet for displaying different pages -->
+<div class="container mx-auto mt-4">
+  <router-outlet></router-outlet>
+</div>

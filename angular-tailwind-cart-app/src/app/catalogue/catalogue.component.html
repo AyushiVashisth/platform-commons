@@ -1,0 +1,55 @@
+<div
+  class="w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 text-center"
+>
+  <!-- Loop through products from JSON -->
+  <div
+    *ngFor="let product of products"
+    class="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 text-center"
+  >
+    <img
+      [src]="product.image"
+      alt="{{ product.Name }}"
+      class="w-97 h-72 m-auto"
+    />
+    <div class="p-6">
+      <h2 class="text-2xl font-semibold text-purple-800 mb-3">
+        {{ product.Name }}
+      </h2>
+      <p class="text-gray-600 text-sm">{{ product.Weight }}</p>
+      <p class="text-lg text-green-600 font-semibold mt-2">
+        ₹{{ product.Price }}
+      </p>
+      <div class="mt-4 flex flex-col items-center">
+        <button
+          (click)="addToCart(product)"
+          *ngIf="!product.inCart"
+          class="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 focus:outline-none mb-2"
+        >
+          Add to Cart
+        </button>
+        <div *ngIf="product.inCart" class="flex items-center space-x-2">
+          <button
+            (click)="decreaseQuantity(product)"
+            class="px-3 py-1 bg-gray-200 text-gray-600 rounded-full hover:bg-gray-300 focus:outline-none"
+          >
+            <i class="fas fa-minus"></i>
+          </button>
+          <span class="text-xl font-semibold">{{ product.quantity }}</span>
+          <button
+            (click)="increaseQuantity(product)"
+            class="px-3 py-1 bg-gray-200 text-gray-600 rounded-full hover:bg-gray-300 focus:outline-none"
+          >
+            <i class="fas fa-plus"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a
+  routerLink="/cart"
+  class="fixed bottom-4 right-4 bg-indigo-600 text-white p-3 rounded-full shadow-lg hover:bg-indigo-700 focus:outline-none"
+>
+  <i class="fas fa-shopping-cart text-3xl"></i>
+</a>
