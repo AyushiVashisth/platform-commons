@@ -23,9 +23,9 @@ On the Cart page, display the list of added products with their Name, Price, and
  <div align="center"><h3 align="center">Frontend</h3>
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" align="center" alt="html5">
 <img src = "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" align="center" alt="css3">
-<img src ="https://img.shields.io/badge/angular-%23323330.svg?style=for-the-badge&logo=angular&logoColor=%23F7DF1E" align="center" alt="angular">
-<img src ="https://img.shields.io/badge/typescript-%23323330.svg?style=for-the-badge&logo=typescript&logoColor=%23F7DF1E" align="center" alt="typescript">
-   <img src ="https://img.shields.io/badge/tailwind-%23323330.svg?style=for-the-badge&logo=tailwind&logoColor=%23F7DF1E" align="center" alt="tailwind">
+<img src ="https://img.shields.io/badge/angular-%23323330.svg?style=for-the-badge&logo=angular&logoColor=blue" align="center" alt="angular">
+<img src ="https://img.shields.io/badge/typescript-%23323330.svg?style=for-the-badge&logo=typescript&logoColor=red" align="center" alt="typescript">
+   <img src ="https://img.shields.io/badge/tailwindcss-%23323330.svg?style=for-the-badge&logo=tailwindcss&logoColor=green" align="center" alt="tailwind">
 <br/>
 <br/>
 </div>
