@@ -5,13 +5,13 @@
 <h3 align="justify" width="80%">
 Create an Angular project (version 12+) with routing included. The project should have two routes - Catalogue page and Cart/Basket page.
   
-Create a JSON file containing an array of Products/Products List with the following fields/properties - Name, Image, Weight, Price.
+Create a JSON file containing an array of Products/Products List with the following fields/properties - Name, Image, Weight, and Price.
   
-In the Catalogue page, display all the products after fetching them from the JSON file. Each product should have an "Add to cart" button below it. Clicking the "Add to cart" button should add the product to the cart, and the button UI should be replaced by a quantity control button, for example, " (-) 1 (+) ". Clicking on the (+) button should increase the quantity in the cart, and clicking on the (-) button should decrease the quantity. If the user chooses 0 in the quantity control button, the product should be removed from the cart, and the UI should revert to "Add to cart".
+On the Catalogue page, display all the products after fetching them from the JSON file. Each product should have an "Add to Cart" button below it. Clicking the "Add to cart" button should add the product to the cart, and the button UI should be replaced by a quantity control button, for example, " (-) 1 (+) ". Clicking on the (+) button should increase the quantity in the cart, and clicking on the (-) button should decrease the quantity. If the user chooses 0 in the quantity control button, the product should be removed from the cart, and the UI should revert to "Add to cart".
 
 Show a cart icon on the Catalogue page that, when clicked, navigates to the Cart page.
 
-In the Cart page, display the list of added products with their Name, Price, and the number of units ordered. At the end of the page, show the order total and estimated delivery date. If there are no added products, display a 'No product added' message.
+On the Cart page, display the list of added products with their Name, Price, and the number of units ordered. At the end of the page, show the order total and estimated delivery date. If there are no added products, display a 'No product added' message.
 
 <h2 align="left">
 <img src="https://art.pixilart.com/486745d4bb1ef18.gif"  width="20" height="20" align="center">
@@ -100,8 +100,21 @@ To run the project, follow these steps:
 
 ### Screenshots
 
-![Catalogue Page](url-to-catalogue-page-screenshot)
-![Cart Page](url-to-cart-page-screenshot)
+## Catalogue
+
+![Catalogue Page](https://github.com/AyushiVashisth/platform-commons/assets/107119119/aaeaeacb-b318-417c-9ef3-ec9a45a0693d)
+![Screenshot 2023-09-02 134426](https://github.com/AyushiVashisth/platform-commons/assets/107119119/fb0f79b3-cdbe-41c5-b2ea-78a301eec02f)
+
+## Cart
+
+
+![Cart Page](https://github.com/AyushiVashisth/platform-commons/assets/107119119/64929512-743c-48bb-9179-7917f4d80336)
+![Screenshot 2023-09-02 134459](https://github.com/AyushiVashisth/platform-commons/assets/107119119/568d50e7-054e-4052-b51c-599db6947293)
+
+## Order
+![Screenshot 2023-09-02 134512](https://github.com/AyushiVashisth/platform-commons/assets/107119119/758067d9-1bbc-478d-8009-644a34893c0b)
+
+
 
 <br/>
 
